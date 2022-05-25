@@ -3,5 +3,5 @@ projectKey=IngSoftwareE1-IanCortez_implementacion
 serverUrl=https://sonarcloud.io
 serverVersion=8.0.0.29242
 dashboardUrl=https://sonarcloud.io/dashboard?id=IngSoftwareE1-IanCortez_implementacion
-ceTaskId=AYD5Gwnd96yI0RG70x4Q
-ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AYD5Gwnd96yI0RG70x4Q
+ceTaskId=AYD5HSB8mNM3SLSG3Zcm
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AYD5HSB8mNM3SLSG3Zcm
