@@ -17,6 +17,7 @@ public:
 	Estrategia() = default;
 	virtual void agregarNumero(int num) = 0;
 	virtual bool validarEstrategia() = 0;
+	virtual ~Estrategia() = default;
 };
 
 
@@ -28,6 +29,7 @@ private:
 
 public:
 	CincoPares() = default;
+	~CincoPares() = default;
 
 	void agregarNumero(int num) override{
 		arreglo[posArreglo] = num;
@@ -55,6 +57,7 @@ private:
 
 public:
 	CincoImpares() = default;
+	virtual ~CincoImpares() = default;
 
 	void agregarNumero(int num) override{
 		arreglo[posArreglo] = num;
@@ -81,6 +84,7 @@ private:
 
 public:
 	NumeroPrimo() = default;
+	virtual ~NumeroPrimo() = default;
 
 	void agregarNumero(int num) override{
 		numero = num;
@@ -106,6 +110,7 @@ private:
 
 public:
 	Multiplos10() = default;
+	virtual ~Multiplos10() = default;
 
 	void agregarNumero(int num) override {
 		arreglo[posArreglo] = num;
@@ -133,6 +138,7 @@ private:
 
 public:
 	Multiplos25() = default;
+	virtual ~Multiplos25() = default;
 
 	void agregarNumero(int num) override {
 		arreglo[posArreglo] = num;
