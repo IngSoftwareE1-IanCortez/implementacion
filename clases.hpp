@@ -5,7 +5,11 @@
 #include <random>
 #include <iostream>
 #include <array>
+#include <vector>
 #include <chrono>
+#include <algorithm>
+#include <ctime>
+#include <cstdlib>
 
 
 class Estrategia {
@@ -148,6 +152,27 @@ public:
 };
 
 
+class GeneradorNumerosAleatorios {
+private:
+	std::vector<int> arreglo;
+	int posActual = 0;
+
+public:
+	GeneradorNumerosAleatorios() = default;
+	GeneradorNumerosAleatorios(int inicio, int fin){
+		for(int i=inicio; i<=fin; ++i){
+			arreglo.push_back(i);
+		}
+		unsigned seed = std::chrono::system_clock::now().time_since_epoch().count();
+		std::shuffle(arreglo.begin(), arreglo.end(), std::default_random_engine(seed));
+	};
+
+	int devolverNumero(){
+		return arreglo[posActual++];
+	}
+};
+
+
 class Juego {
 private:
 	Estrategia* est1 = nullptr;
@@ -155,25 +180,7 @@ private:
 	Estrategia* est3 = nullptr;
 	Estrategia* est4 = nullptr;
 	Estrategia* est5 = nullptr;
-
-	int generarNumeroAleatorio(){
-		std::random_device dev;
-
-		std::mt19937::result_type seed = dev() ^ (
-			(std::mt19937::result_type)
-			std::chrono::duration_cast<std::chrono::seconds>(
-				std::chrono::system_clock::now().time_since_epoch()
-				).count() +
-			(std::mt19937::result_type)
-			std::chrono::duration_cast<std::chrono::microseconds>(
-				std::chrono::high_resolution_clock::now().time_since_epoch()
-				).count() );
-
-		std::mt19937 gen(seed);
-		std::uniform_int_distribution<unsigned> dist(1,100);
-		return dist(gen);
-	}
-
+	GeneradorNumerosAleatorios* gen = new GeneradorNumerosAleatorios(1, 100);
 
 public:
 	Juego() = default;
@@ -184,6 +191,7 @@ public:
 		delete est3;
 		delete est4;
 		delete est5;
+		delete gen;
 	}
 
 	
@@ -243,7 +251,7 @@ public:
 
 	void iniciarJuego(){
 		while(true){
-			int numero = generarNumeroAleatorio();
+			int numero = gen->devolverNumero();
 
 			std::cout << "Numero generado: " << numero << std::endl;
 

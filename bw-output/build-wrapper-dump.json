@@ -1,0 +1,73 @@
+# (C) SonarSource SA, 2014-2022, info@sonarsource.com
+# All SONARSOURCE programs and content are copyright protected.
+# SONARSOURCE and SONARQUBE are trademarks of SonarSource SA. All rights are expressly reserved.
+#
+# This file is designed exclusively for use with the SONARSOURCE C / C++ / Objective-C Plugin.
+# It may not be used in connection with any other software.
+# Any other use is prohibited by law and may be grounds for immediate termination of your License.
+{
+"version":"6.33",
+"captures":[
+{
+"compiler":"clang",
+"executable":"D:\\MinGW\\mingw64\\bin\\g++.exe",
+"cmd": [
+"g++",
+"main.cpp"],
+"cwd":"D:\\ProgrammingProjects\\utec\\2022_1\\ing_software\\e1\\",
+"env": [
+"ALLUSERSPROFILE=C:\\ProgramData",
+"APPDATA=C:\\Users\\Luis\\AppData\\Roaming",
+"CHROME_CRASHPAD_PIPE_NAME=\\\\.\\pipe\\crashpad_52860_ELELRCFIMNTLQXTO",
+"CommonProgramFiles=C:\\Program Files\\Common Files",
+"CommonProgramFiles(x86)=C:\\Program Files (x86)\\Common Files",
+"CommonProgramW6432=C:\\Program Files\\Common Files",
+"COMPUTERNAME=DESKTOP-46BEBKF",
+"ComSpec=C:\\WINDOWS\\system32\\cmd.exe",
+"CYGWIN=wincmdln",
+"DriverData=C:\\Windows\\System32\\Drivers\\DriverData",
+"GOPATH=C:\\Users\\Luis\\go",
+"HOMEDRIVE=C:",
+"HOMEPATH=\\Users\\Luis",
+"IntelliJ IDEA Community Edition=D:\\Program Files\\IntelliJ\\IntelliJ IDEA Community Edition 2021.3.3\\bin;",
+"LOCALAPPDATA=C:\\Users\\Luis\\AppData\\Local",
+"LOGONSERVER=\\\\DESKTOP-46BEBKF",
+"NUMBER_OF_PROCESSORS=12",
+"OneDrive=C:\\Users\\Luis\\OneDrive",
+"ORIGINAL_XDG_CURRENT_DESKTOP=undefined",
+"OS=Windows_NT",
+"Path=C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\MinGW\\mingw64\\bin;C:\\Program Files\\MySQL\\MySQL Server 8.0\\bin;D:\\Program Files\\Java\\jdk-16;D:\\Oracle\\java-jdks;D:\\Oracle\\java-jre;D:\\Go\\bin;D:\\MinGW\\mingw64\\x86_64-w64-mingw32\\bin;D:\\maven\\apache-maven-3.8.5\\bin;D:\\Program Files\\Git\\cmd;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\ProgramData\\DockerDesktop\\version-bin;D:\\sonarcloud\\build-wrapper-win-x86;D:\\sonarcloud\\sonar-scanner-4.7.0.2747-windows\\bin;D:\\Program Files\\PostgreSQL\\14\\bin;D:\\python\\python39\\Scripts\\;D:\\python\\python39\\;C:\\Users\\Luis\\AppData\\Local\\Microsoft\\WindowsApps;D:\\Program Files\\Microsoft VS Code\\bin;C:\\Users\\Luis\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Luis\\go\\bin;C:\\Users\\Luis\\go\\bin;D:\\Program Files\\IntelliJ\\IntelliJ IDEA Community Edition 2021.3.3\\bin;;D:\\Hyper\\resources\\bin;",
+"PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL",
+"PROCESSOR_ARCHITECTURE=AMD64",
+"PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 158 Stepping 10, GenuineIntel",
+"PROCESSOR_LEVEL=6",
+"PROCESSOR_REVISION=9e0a",
+"ProgramData=C:\\ProgramData",
+"ProgramFiles=C:\\Program Files",
+"ProgramFiles(x86)=C:\\Program Files (x86)",
+"ProgramW6432=C:\\Program Files",
+"PSModulePath=C:\\Users\\Luis\\Documents\\WindowsPowerShell\\Modules;C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules",
+"PUBLIC=C:\\Users\\Public",
+"SESSIONNAME=Console",
+"SONAR_TOKEN=7ce4a7308fe9ef2e8d9aedb407025ce35c76c63e",
+"SystemDrive=C:",
+"SystemRoot=C:\\WINDOWS",
+"TEMP=C:\\Users\\Luis\\AppData\\Local\\Temp",
+"TMP=C:\\Users\\Luis\\AppData\\Local\\Temp",
+"USERDOMAIN=DESKTOP-46BEBKF",
+"USERDOMAIN_ROAMINGPROFILE=DESKTOP-46BEBKF",
+"USERNAME=Ian",
+"USERPROFILE=C:\\Users\\Luis",
+"VS140COMNTOOLS=D:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\Common7\\Tools\\",
+"windir=C:\\WINDOWS",
+"ZES_ENABLE_SYSMAN=1",
+"TERM_PROGRAM=vscode",
+"TERM_PROGRAM_VERSION=1.67.2",
+"LANG=es_ES.UTF-8",
+"COLORTERM=truecolor",
+"VSCODE_GIT_IPC_HANDLE=\\\\.\\pipe\\vscode-git-29d585a0d6-sock",
+"VSCODE_GIT_ASKPASS_NODE=D:\\Program Files\\Microsoft VS Code\\Code.exe",
+"VSCODE_GIT_ASKPASS_EXTRA_ARGS=--ms-enable-electron-run-as-node",
+"VSCODE_GIT_ASKPASS_MAIN=d:\\Program Files\\Microsoft VS Code\\resources\\app\\extensions\\git\\dist\\askpass-main.js",
+"GIT_ASKPASS=d:\\Program Files\\Microsoft VS Code\\resources\\app\\extensions\\git\\dist\\askpass.sh",
+"_NO_DEBUG_HEAP=1"]}]}
