@@ -2,20 +2,16 @@
 
 
 int main(){
-	Juego* juego = new Juego();
+	Juego juego;
 	int estrategia;
 
-	while(!juego->validarJugadores()){
+	while(!juego.validarJugadores()){
 		std::cout << "Asignar un jugador a estrategia: ";
 		std::cin >> estrategia;
 
-		juego->agregarEstrategia(estrategia);
+		juego.agregarEstrategia(estrategia);
 	}
 
-	juego->iniciarJuego();
-
-
-	delete juego;
-
+	juego.iniciarJuego();
 	return 0;
 }

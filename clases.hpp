@@ -183,8 +183,6 @@ private:
 	GeneradorNumerosAleatorios* gen = new GeneradorNumerosAleatorios(1, 100);
 
 public:
-	Juego() = default;
-
 	virtual ~Juego() {
 		delete est1;
 		delete est2;
